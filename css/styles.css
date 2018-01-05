@@ -4,13 +4,9 @@
 }
 
 #topbar {
-  /* text-align: center; */
   margin: auto;
-  width: 40%;
-  margin-bottom: 0.5em;
-  /* border-style: solid;
-  border-color: blue;
-  background-color: lightblue; */
+  width: 50%;
+  margin-bottom: 2em;
 }
 
 #topbar img {
@@ -19,6 +15,7 @@
 
 #topbar h1 {
   margin-bottom: 0px;
+  font-size: 3em;
 }
 .info-text {
   font-size: .75em;
@@ -36,4 +33,13 @@
 
 .about-me .card~.card {
   border-top: none;
+  margin-top: .75em;
+}
+
+body {
+  background-color: #BBFFFF;
+}
+
+.card {
+  background-color: #9eddff;
 }
