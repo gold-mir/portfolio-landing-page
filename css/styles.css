@@ -35,7 +35,7 @@ body {
   color: grey;
 }
 
-.project-info .card {
+#projects .card {
   margin-bottom: 1.5em;
 }
 
@@ -57,4 +57,14 @@ body {
 
 #content > div[class^="col"]:not(:first-child) {
   border-left: none;
+}
+
+.project-info .card div:last-child {
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top: 0;
+}
+
+.project-info .card-body {
+  padding-bottom: 0;
 }
