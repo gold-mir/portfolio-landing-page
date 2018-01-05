@@ -27,7 +27,6 @@
 }
 
 .project-info .card {
-  /* margin-top: .75em; */
   margin-bottom: 1.5em;
 }
 
@@ -38,7 +37,3 @@
 .about-me .card~.card {
   border-top: none;
 }
-
-/* .about-me .card:first-child {
-  margin-top: .75em;
-} */
