@@ -11,9 +11,10 @@ em {
   background-color: #9eddff;
 }
 
-#header-img {
-  height: 10em;
-  width: 15em;
+.infotext {
+  font-size: .75em;
+  font-style: italic;
+  color: #353535;
 }
 
 #topbar {
@@ -26,6 +27,8 @@ em {
 }
 
 #topbar img {
+  height: 10em;
+  width: 15em;
   margin: .5em;
 }
 
@@ -37,20 +40,6 @@ em {
 #topbar p {
   margin-bottom: 0;
 }
-.infotext {
-  font-size: .75em;
-  font-style: italic;
-  color: #353535;
-}
-
-#projects .card {
-  margin-bottom: 1.5em;
-}
-
-#about-me .card~.card {
-  border-top: none;
-  margin-top: 1em;
-}
 
 #content > div[class^="col"] {
   padding-top: .8em;
@@ -60,12 +49,49 @@ em {
 }
 
 #content > div[class^="col"] > h2 {
-
   text-align: center;
 }
 
 #content > div[class^="col"]:not(:first-child) {
   border-left: none;
+}
+
+#projects .card {
+  margin-bottom: 1.5em;
+}
+
+#about-me {
+  font-size: .95em;
+}
+
+#about-me .card-title {
+  font-size: 1.4em;
+}
+
+#about-me .card-title,  .project-info .card-subtitle{
+  margin-bottom: 0.2em;
+  padding-bottom: .05em;
+  border-style: solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-width: 1px;
+}
+
+#about-me .card-text, #about-me ul{
+  line-height: 1.4em;
+}
+
+#about-me .card~.card {
+  margin-top: 1em;
+}
+
+#about-me ul:last-of-type {
+  margin-bottom: 0;
+}
+
+#about-me .card-text + ul {
+  margin-top: -8px;
 }
 
 .project-info .card div:last-child {
@@ -80,8 +106,14 @@ em {
 
 .project-info .card-body .card-subtitle:first-of-type {
   font-style: italic;
+  /* padding-top: 0.1em; */
 }
 
 .project-info .card-text {
   font-size: .8em;
+  padding-top: 0.4em;
+}
+
+.project-info .card-title {
+  margin-bottom: .4em
 }
