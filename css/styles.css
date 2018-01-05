@@ -1,6 +1,6 @@
 
 body {
-  /* background-color: #BBFFFF; */
+  background-color: #f2faff;
 }
 
 .card {
@@ -19,7 +19,6 @@ body {
   border-width: 1px;
   border-color: black;
   border-bottom: none;
-  /* margin-bottom: 2em; */
 }
 
 #topbar img {
@@ -49,10 +48,6 @@ body {
   margin-top: 1em;
 }
 
-#content {
-  /* background-color: #BBFFFF; */
-}
-
 #content > div[class^="col"] {
   padding-top: .8em;
   border-style: solid;
@@ -63,8 +58,3 @@ body {
 #content > div[class^="col"]:not(:first-child) {
   border-left: none;
 }
-
-/* #projects {
-  border-style: solid;
-  border-width: 1px;
-} */
