@@ -6,8 +6,12 @@
 
 #header-img {
   height: 10em;
-  width: auto;
-  float: left;
+  width: 15em;
+}
+
+.topbar-text {
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 .info-text {
