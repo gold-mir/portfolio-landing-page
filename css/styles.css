@@ -1,10 +1,16 @@
+#sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 #header-img {
   height: 10em;
   width: auto;
   float: left;
 }
 
-.info {
+.info-text {
   font-size: .75em;
   font-style: italic;
   color: grey;
