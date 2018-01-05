@@ -1,3 +1,12 @@
+
+body {
+  /* background-color: #BBFFFF; */
+}
+
+.card {
+  background-color: #9eddff;
+}
+
 #header-img {
   height: 10em;
   width: 15em;
@@ -5,8 +14,12 @@
 
 #topbar {
   margin: auto;
-  width: 50%;
-  margin-bottom: 2em;
+  width: 60%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-bottom: none;
+  /* margin-bottom: 2em; */
 }
 
 #topbar img {
@@ -31,15 +44,27 @@
   text-align: center;
 }
 
-.about-me .card~.card {
+#about-me .card~.card {
   border-top: none;
-  margin-top: .75em;
+  margin-top: 1em;
 }
 
-body {
-  background-color: #BBFFFF;
+#content {
+  /* background-color: #BBFFFF; */
 }
 
-.card {
-  background-color: #9eddff;
+#content > div[class^="col"] {
+  padding-top: .8em;
+  border-style: solid;
+  border-width: 1px;
+  padding-bottom: 1em;
 }
+
+#content > div[class^="col"]:not(:first-child) {
+  border-left: none;
+}
+
+/* #projects {
+  border-style: solid;
+  border-width: 1px;
+} */
