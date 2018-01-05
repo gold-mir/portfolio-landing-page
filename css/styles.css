@@ -15,3 +15,7 @@
   font-style: italic;
   color: grey;
 }
+
+.project-info .card {
+  width: 100%;
+}
