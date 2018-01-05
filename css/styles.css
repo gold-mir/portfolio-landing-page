@@ -1,0 +1,11 @@
+#header-img {
+  height: 10em;
+  width: auto;
+  float: left;
+}
+
+.info {
+  font-size: .75em;
+  font-style: italic;
+  color: grey;
+}
