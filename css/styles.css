@@ -1,6 +1,10 @@
-
 body {
   background-color: #f2faff;
+}
+
+em {
+  font-weight: bold;
+  color: #2F4049;
 }
 
 .card {
@@ -26,13 +30,17 @@ body {
 }
 
 #topbar h1 {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   font-size: 3em;
+}
+
+#topbar p {
+  margin-bottom: 0;
 }
 .infotext {
   font-size: .75em;
   font-style: italic;
-  color: grey;
+  color: #353535;
 }
 
 #projects .card {
@@ -68,4 +76,12 @@ body {
 
 .project-info .card-body {
   padding-bottom: 0;
+}
+
+.project-info .card-body .card-subtitle:first-of-type {
+  font-style: italic;
+}
+
+.project-info .card-text {
+  font-size: .8em;
 }
