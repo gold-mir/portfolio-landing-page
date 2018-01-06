@@ -1,3 +1,4 @@
+/* Global Stuff */
 body {
   background-color: #f2faff;
 }
@@ -7,8 +8,17 @@ em {
   color: #2F4049;
 }
 
+ol {
+  list-style-type: lower-alpha;
+}
+
+ul li:nth-child(even) {
+  list-style: square;
+}
+
 .card {
   background-color: #9eddff;
+  border-color: black;
 }
 
 .infotext {
@@ -16,6 +26,8 @@ em {
   font-style: italic;
   color: #353535;
 }
+
+/* Style the Topbar */
 
 #topbar {
   margin: auto;
@@ -41,6 +53,8 @@ em {
   margin-bottom: 0;
 }
 
+/* Properly align content and add borders */
+
 #content > div[class^="col"] {
   padding-top: .8em;
   border-style: solid;
@@ -56,9 +70,7 @@ em {
   border-left: none;
 }
 
-#projects .card {
-  margin-bottom: 1.5em;
-}
+/* Style the "about me" section  */
 
 #about-me {
   font-size: .95em;
@@ -94,6 +106,33 @@ em {
   margin-top: -8px;
 }
 
+/* Floating skill list within "about me" */
+
+#skills-list {
+  float: right;
+  margin-left: .2em;
+  padding-left: .2em;
+  height: auto;
+  width: 10em;
+  border-style: solid;
+  border-width: 1px;
+  border-right: 0;
+  border-top: 0;
+}
+
+#skills-list .card-title {
+  /* margin-left: 2px; */
+  border: none;
+}
+
+/* Properly space individual projects in projects section */
+
+#projects .card {
+  margin-bottom: 1.5em;
+}
+
+/* Style project cards  */
+
 .project-info .card div:last-child {
   text-align: center;
   padding-bottom: 1em;
@@ -106,7 +145,6 @@ em {
 
 .project-info .card-body .card-subtitle:first-of-type {
   font-style: italic;
-  /* padding-top: 0.1em; */
 }
 
 .project-info .card-text {
